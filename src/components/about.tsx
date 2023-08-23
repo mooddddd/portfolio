@@ -80,11 +80,55 @@ export const About = () => {
                 되고 싶습니다.
               </p>
             </div>
-            <div className='mb-14'>
+            <div>
               <h1 className='text-xl font-medium title-font mb-4 text-gray-900 tracking-widest'>
                 Education.
               </h1>
-              <p className='text-lg'>경일게임아카데미</p>
+              <div className='mb-8'>
+                <div className='text-lg mb-1'>
+                  <p>
+                    <strong>경일게임아카데미</strong>
+                  </p>
+                  <p>블록체인 기반 핀테크 및 응용 SW 개발자 양성 과정 수료</p>
+                </div>
+                <div className='text-base font-light'>
+                  <p>2022. 10 ~ 2023. 07</p>
+                  <p>
+                    약 10개월 간의 비전공자를 위한 개발자 양성 과정을
+                    이수하였습니다. HTLM, CSS와 같은 기본적인 마크업 언어부터
+                    시작하여 Javascript의 기본적인 문법을 학습하였습니다. 이후
+                    Node.js 환경에서 Express를 이용한 서버 구축 및 MySQL 기반의
+                    관계형 데이터베이스에 대한 교육을 받았습니다. 더 나아가
+                    React를 활용한 프론트 구성, AWS EC2 서버 배포 등 다양한
+                    학습을 진행하면서 약 7개월 간 웹 프로그래밍에 필요한
+                    여러가지 기초 지식을 익혔습니다.
+                    <br />
+                    그 이후에는 Bitcoin, Ethereum 등을 기반으로 한 BlockChain에
+                    대한 교육을 받았습니다. 블록체인 생태계 및 비트코인,
+                    이더리움에 대한 전반적인 흐름 및 개념에 대해 배운 뒤
+                    Typescript를 활용하여 비트코인 코드를 기반으로 한 토이
+                    블록체인을 구현해보았으며, Web3 라이브러리를 사용하여
+                    지갑부터 Dapp 제작, Solidity를 통한 Smart Contract 작성 및
+                    배포 등을 실습하며 블록체인에 대한 전반적인 학습을
+                    진행했습니다.
+                    <br />
+                    교육 과정 중 배운 내용을 바탕으로 1~2개월 마다 팀 프로젝트를
+                    진행하였으며, 이를 통해 협업 방식 및 중요성과 기본적인 git
+                    사용법 등에 대해 익힐 수 있었습니다.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className='text-lg mb-1'>
+                  <p>
+                    <strong>대진대학교</strong>
+                  </p>
+                  <p>국어국문학과 학사 졸업</p>
+                </div>
+                <div className='text-base font-light'>
+                  <p>2012. 03 ~ 2018. 08</p>
+                </div>
+              </div>
             </div>
           </section>
         </div>
