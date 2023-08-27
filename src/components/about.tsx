@@ -87,7 +87,7 @@ export const About = () => {
               <div className='mb-8'>
                 <div className='text-lg mb-1'>
                   <p>
-                    <strong>경일게임아카데미</strong>
+                    <strong>📍 경일게임아카데미</strong>
                   </p>
                   <p>블록체인 기반 핀테크 및 응용 SW 개발자 양성 과정 수료</p>
                 </div>
@@ -121,7 +121,7 @@ export const About = () => {
               <div>
                 <div className='text-lg mb-1'>
                   <p>
-                    <strong>대진대학교</strong>
+                    <strong>📍 대진대학교</strong>
                   </p>
                   <p>국어국문학과 학사 졸업</p>
                 </div>

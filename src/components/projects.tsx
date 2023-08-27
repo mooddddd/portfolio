@@ -21,9 +21,10 @@ export const Projects = () => {
               />
               <div className='flex-grow sm:pl-8'>
                 <h2 className='title-font font-medium text-lg text-gray-900'>
-                  프로젝트 이름
+                  Solar Swap
                 </h2>
-                <h3 className='text-gray-500 mb-3'>프론트엔드 담당</h3>
+                <h3 className='text-gray-500'>23.06.05 ~ 23.07.18</h3>
+                <h3 className='text-gray-500 mb-3'>Front-end</h3>
                 <p className='mb-4'>프로젝트 소개</p>
                 <span className='inline-flex'>
                   <a className='text-gray-500'>깃헙</a>
