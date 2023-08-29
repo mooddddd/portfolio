@@ -1,7 +1,7 @@
 import { About, Projects } from '@/components';
 import { Contact } from '@/components/contact';
 
-export default function Home() {
+export default async function Home() {
   return (
     <div>
       <About />

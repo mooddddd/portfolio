@@ -1,4 +1,9 @@
-export const Projects = () => {
+import getlist from '../../utils/getList';
+
+export const Projects = async () => {
+  const list = await getlist();
+  console.log(list);
+
   return (
     <section className='text-gray-600 body-font' id='projects'>
       <div className='container px-5 py-20 mx-auto'>

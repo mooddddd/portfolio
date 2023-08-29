@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const options = {
   method: 'GET',
-  url: 'https://api.notion.com/v1/databases/4eceaa4c37fc4250b2bd2b6a3be8f9f9',
+  url: `https://api.notion.com/v1/databases/${process.env.NOTION_DATABASE_ID}`,
   headers: { accept: 'application/json', 'Notion-Version': '2022-06-28' },
 };
 
