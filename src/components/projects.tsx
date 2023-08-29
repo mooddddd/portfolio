@@ -11,18 +11,23 @@ export const Projects = async () => {
           <img
             alt='team'
             className='flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4'
-            src='https://dummyimage.com/206x206'
+            src={v.cover.external.url}
           />
           <div className='flex-grow sm:pl-8'>
             <h2 className='title-font font-medium text-lg text-gray-900'>
               {v.properties.Title.title[0].plain_text}
             </h2>
-            <h3 className='text-gray-500'> ~ 23.07.18</h3>
+            <h3 className='text-gray-500'>
+              {' '}
+              {v.properties.Period.date.start}~ {v.properties.Period.date.end}
+            </h3>
             <h3 className='text-gray-500 mb-3'>Front-end</h3>
-            <p className='mb-4'>프로젝트 소개</p>
+            <p className='mb-4'>
+              {v.properties.Description.rich_text[0].text.content}
+            </p>
             <span className='inline-flex'>
-              <a className='text-gray-500'>깃헙</a>
-              <a className='ml-2 text-gray-500'>배포주소</a>
+              <a className='text-gray-500'>{v.properties.Github.url}</a>
+              {/* <a className='ml-2 text-gray-500'>배포주소</a> */}
             </span>
           </div>
         </div>

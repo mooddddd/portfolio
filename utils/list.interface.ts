@@ -1,5 +1,13 @@
 interface List {
   properties: Properties;
+  cover: Cover;
+}
+
+interface Cover {
+  type: string;
+  external: {
+    url: string;
+  };
 }
 
 interface Properties {
