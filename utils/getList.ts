@@ -16,6 +16,7 @@ const getlist = async () => {
   );
   const { results } = await res.json();
 
+  //   return { props: { results } };
   return results;
 };
 
