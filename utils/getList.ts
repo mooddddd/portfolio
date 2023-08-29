@@ -7,7 +7,15 @@ const getlist = async () => {
       'content-type': 'application/json',
       Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
     },
-    body: JSON.stringify({ page_size: 100 }),
+    body: JSON.stringify({
+      //   sorts: [
+      //     {
+      //       property: 'Name',
+      //       direction: 'ascending',
+      //     },
+      //   ],
+      page_size: 100,
+    }),
   };
 
   const res = await fetch(
