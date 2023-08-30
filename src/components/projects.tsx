@@ -6,7 +6,7 @@ export const Projects = async () => {
 
   return (
     <section className='text-gray-600 body-font' id='projects'>
-      <div className='container px-5 py-20 mx-auto'>
+      <div className='container px-5 py-20 mx-auto mb-10'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h1 className='text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest'>
             Project History

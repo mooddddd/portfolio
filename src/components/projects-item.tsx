@@ -1,4 +1,4 @@
-export const Item = ({ list }) => {
+export const Item = ({ list }: any) => {
   const listMap = list.map((v: List, idx: number) => {
     return (
       <div className='p-4 lg:w-1/2' key={idx}>

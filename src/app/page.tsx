@@ -1,12 +1,11 @@
-import { About, Projects } from '@/components';
-import { Contact } from '@/components/contact';
+import { About, Projects, Skills } from '@/components';
 
 export default async function Home() {
   return (
     <div>
       <About />
+      <Skills />
       <Projects />
-      <Contact />
     </div>
   );
 }
