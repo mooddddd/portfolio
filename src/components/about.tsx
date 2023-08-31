@@ -7,9 +7,9 @@ export const About = () => {
   return (
     <AboutWrap id='about' className='text-gray-600 body-font'>
       <div className='container px-20 py-20 mx-auto'>
-        <div className='flex flex-col text-center w-full mb-10'>
+        <div className='flex flex-col text-center md:w-4/5 mb-10 mx-auto'>
           <h1 className='text-2xl font-medium title-font mb-10 text-gray-900 tracking-widest'>
-            About - me
+            About
           </h1>
           <section className='my-0 mx-auto'>
             <div className='flex items-center mb-10'>
