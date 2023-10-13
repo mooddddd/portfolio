@@ -126,7 +126,7 @@ export const About = () => {
                   <p>국어국문학과 학사 졸업</p>
                 </div>
                 <div className='text-base font-light'>
-                  <p>2012. 03 ~ 2018. 08</p>
+                  <p>2012. 03 ~ 2018. 02</p>
                 </div>
               </div>
             </div>

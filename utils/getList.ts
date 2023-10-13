@@ -4,16 +4,16 @@ const getlist = async () => {
     headers: {
       Accept: 'application/json',
       'Notion-Version': '2022-06-28',
-      'content-type': 'application/json',
+      'Content-type': 'application/json',
       Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
     },
     body: JSON.stringify({
-      //   sorts: [
-      //     {
-      //       property: 'Name',
-      //       direction: 'ascending',
-      //     },
-      //   ],
+      sorts: [
+        {
+          property: 'Period',
+          direction: 'descending',
+        },
+      ],
       page_size: 100,
     }),
   };

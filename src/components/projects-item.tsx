@@ -13,17 +13,21 @@ export const Item = ({ list }: any) => {
               {v.properties.Title.title[0].plain_text}
             </h2>
             <h3 className='text-gray-500'>
-              {' '}
-              {v.properties.Period.date.start}~ {v.properties.Period.date.end}
+              {v.properties.Period.date.start} ~ {v.properties.Period.date.end}
             </h3>
             <h3 className='text-gray-500 mb-3'>Front-end</h3>
-            <p className='mb-4'>
+            <p className='mb-3'>
               {v.properties.Description.rich_text[0].text.content}
             </p>
-            <span className='inline-flex'>
-              <a className='text-gray-500'>{v.properties.Github.url}</a>
+            <p className='font-bold'>
+              <a
+                className='text-lg text-slate-600'
+                href={`${v.properties.Github.url}`}
+              >
+                자세히 보기 ⇢
+              </a>
               {/* <a className='ml-2 text-gray-500'>배포주소</a> */}
-            </span>
+            </p>
           </div>
         </div>
       </div>
