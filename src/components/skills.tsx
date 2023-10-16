@@ -57,10 +57,14 @@ export const Skills = () => {
               <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
                 Next.js
               </h2>
-              <p className='leading-relaxed'>- NEXT 설명입니다.</p>
+              <p className='leading-relaxed'>
+                - SSR과 CSR의 차이점을 이해하고 구현 가능하며, 라우팅 등 풀스택
+                프레임워크인 Next가 제공하는 기본 기능 활용이 가능합니다.
+              </p>
             </div>
           </div>
         </div>
+
         <div className='flex relative pb-20 sm:items-center mx-auto md:w-4/5'>
           <div className='h-full w-6 absolute inset-0 flex items-center justify-center'>
             <div className='h-full w-1 bg-gray-200 pointer-events-none'></div>
@@ -82,10 +86,77 @@ export const Skills = () => {
               <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
                 Javascript
               </h2>
-              <p className='leading-relaxed'>- Javascript 설명입니다.</p>
+              <p className='leading-relaxed'>
+                - 주 언어로써 기본적인 개념 및 문법을 숙지하고 있으며, 작동
+                원리를 바탕으로 보다 효율적이고 직관적인 코드를 작성하기 위해
+                고민하고 노력합니다.
+              </p>
             </div>
           </div>
         </div>
+
+        <div className='flex relative pb-20 sm:items-center mx-auto md:w-4/5'>
+          <div className='h-full w-6 absolute inset-0 flex items-center justify-center'>
+            <div className='h-full w-1 bg-gray-200 pointer-events-none'></div>
+          </div>
+          <div className='flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-green-500 text-white relative z-10 title-font font-medium text-sm'></div>
+          <div className='flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row'>
+            <div className='flex-shrink-0 w-24 h-24 bg-green-100 text-green-500 rounded-full inline-flex items-center justify-center'>
+              <svg
+                role='img'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
+                className='w-12 h-12'
+              >
+                <title>Solidity</title>
+                <path d='M4.409 6.608L7.981.255l3.572 6.353H4.409zM8.411 0l3.569 6.348L15.552 0H8.411zm4.036 17.392l3.572 6.354 3.575-6.354h-7.147zm-.608-10.284h-7.43l3.715 6.605 3.715-6.605zm.428-.25h7.428L15.982.255l-3.715 6.603zM15.589 24l-3.569-6.349L8.448 24h7.141zm-3.856-6.858H4.306l3.712 6.603 3.715-6.603zm.428-.25h7.433l-3.718-6.605-3.715 6.605z' />
+              </svg>
+            </div>
+            <div className='flex-grow sm:pl-6 mt-6 sm:mt-0'>
+              <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
+                Solidity
+              </h2>
+              <p className='leading-relaxed'>
+                - 이더리움 블록체인과 스마트 컨트랙트 개발에 사용되는 언어로써,
+                기본적인 개념 및 문법을 이해하고 이를 활용하여 스마트 컨트랙트을
+                디자인하고 구현할 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='flex relative pb-20 sm:items-center mx-auto md:w-4/5'>
+          <div className='h-full w-6 absolute inset-0 flex items-center justify-center'>
+            <div className='h-full w-1 bg-gray-200 pointer-events-none'></div>
+          </div>
+          <div className='flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-green-500 text-white relative z-10 title-font font-medium text-sm'></div>
+          <div className='flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row'>
+            <div className='flex-shrink-0 w-24 h-24 bg-green-100 text-green-500 rounded-full inline-flex items-center justify-center'>
+              <svg
+                role='img'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
+                className='w-12 h-12'
+              >
+                <title>Node.js</title>
+                <path d='M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z' />
+              </svg>
+            </div>
+            <div className='flex-grow sm:pl-6 mt-6 sm:mt-0'>
+              <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
+                NodeJS
+              </h2>
+              <p className='leading-relaxed'>
+                - express를 활용한 서버 구축 및 DB와의 연동이 가능하며,
+                웹사이트의 기본 기능인 CRUD 구축이 가능합니다. RESTful한 API에
+                대해 고민하며, 그에 기반한 라우터 작성을 하려고 노력합니다.
+                Socket.io나 websocket을 사용하여 실시간 통신 구현 경험이
+                있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className='flex relative pb-20 sm:items-center mx-auto md:w-4/5'>
           <div className='h-full w-6 absolute inset-0 flex items-center justify-center'>
             <div className='h-full w-1 bg-gray-200 pointer-events-none'></div>
@@ -107,32 +178,10 @@ export const Skills = () => {
               <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
                 MySQL
               </h2>
-              <p className='leading-relaxed'>- mysql 소개입니다.</p>
-            </div>
-          </div>
-        </div>
-        <div className='flex relative pb-20 sm:items-center mx-auto md:w-4/5'>
-          <div className='h-full w-6 absolute inset-0 flex items-center justify-center'>
-            <div className='h-full w-1 bg-gray-200 pointer-events-none'></div>
-          </div>
-          <div className='flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-green-500 text-white relative z-10 title-font font-medium text-sm'></div>
-          <div className='flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row'>
-            <div className='flex-shrink-0 w-24 h-24 bg-green-100 text-green-500 rounded-full inline-flex items-center justify-center'>
-              <svg
-                role='img'
-                viewBox='0 0 24 24'
-                xmlns='http://www.w3.org/2000/svg'
-                className='w-12 h-12'
-              >
-                <title>Express</title>
-                <path d='M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z' />
-              </svg>
-            </div>
-            <div className='flex-grow sm:pl-6 mt-6 sm:mt-0'>
-              <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
-                Express
-              </h2>
-              <p className='leading-relaxed'>- Express 설명입니다</p>
+              <p className='leading-relaxed'>
+                - DB Schema 구축 및 query문 작성이 가능하며, sequlize와 같은 ORM
+                라이브러리 세팅 및 사용이 가능합니다.
+              </p>
             </div>
           </div>
         </div>
@@ -159,8 +208,11 @@ export const Skills = () => {
                 Tools
               </h2>
               <p className='leading-relaxed'>
-                - Git : 깃 설명입니다.
-                <br />- Figma : 피그마 설명입니다.
+                - <strong>Git</strong> : 협업을 위해 필요한 기본 기능을 활용한
+                업무가 가능합니다.
+                <br />- <strong>Figma</strong> : 프로젝트 진행시 방향성 및
+                필요한 디자인, 데이터 파악을 위한 화면 레이아웃 구성을 할 수
+                있습니다.
               </p>
             </div>
           </div>
