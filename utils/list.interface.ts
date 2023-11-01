@@ -1,9 +1,11 @@
 interface List {
+  url: any;
   properties: Properties;
   cover: Cover;
 }
 
 interface Cover {
+  file: any;
   type: string;
   external: {
     url: string;
@@ -11,6 +13,7 @@ interface Cover {
 }
 
 interface Properties {
+  Position: any;
   Description: {
     id: string;
     type: string;

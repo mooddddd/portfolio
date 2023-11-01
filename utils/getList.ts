@@ -4,7 +4,7 @@ const getlist = async () => {
     headers: {
       Accept: 'application/json',
       'Notion-Version': '2022-06-28',
-      'Content-type': 'application/json',
+      'content-type': 'application/json',
       Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
     },
     body: JSON.stringify({
@@ -24,7 +24,8 @@ const getlist = async () => {
   );
   const { results } = await res.json();
 
-  //   return { props: { results } };
+  // console.log(results);
+
   return results;
 };
 

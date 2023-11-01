@@ -6,7 +6,7 @@ export const Item = ({ list }: any) => {
           <img
             alt='team'
             className='flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4'
-            src={v.cover.external.url}
+            src={v.cover.file.url}
           />
           <div className='flex-grow sm:pl-8'>
             <h2 className='title-font font-medium text-lg text-gray-900'>
@@ -15,18 +15,17 @@ export const Item = ({ list }: any) => {
             <h3 className='text-gray-500'>
               {v.properties.Period.date.start} ~ {v.properties.Period.date.end}
             </h3>
-            <h3 className='text-gray-500 mb-3'>Front-end</h3>
+            <h3 className='text-gray-500 mb-3'>
+              {v.properties.Position.rich_text[0].text.content}
+            </h3>
             <p className='mb-3'>
               {v.properties.Description.rich_text[0].text.content}
             </p>
             <p className='font-bold'>
-              <a
-                className='text-lg text-slate-600'
-                href={`${v.properties.Github.url}`}
-              >
+              <a className='text-lg text-slate-600' href={`${v.url}`}>
                 자세히 보기 ⇢
               </a>
-              {/* <a className='ml-2 text-gray-500'>배포주소</a> */}
+              {/* <a className='ml-2 text-gray-500'>배포주소</a>*/}
             </p>
           </div>
         </div>
